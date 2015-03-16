@@ -42,11 +42,18 @@ the different components you will need?
 **When:**  
 **Then:**  
 
-3.  Creating a new status message.    
+3.  Seeing list of all users
 
 **Given:**  
 **When:**  
 **Then:**  
+
+4.  Creating a new status message.    
+
+**Given:**  
+**When:**  
+**Then:**  
+
 
 ### Tips
 *  Capybara searches for form itmes by DOM ID, form name, or the text of the
