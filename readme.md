@@ -1,15 +1,15 @@
 ### Setup
 
-To get this repo set up properly you can run:
+To get this repo set up properly you can run:  
 ```ruby
 bundle 
 rake reset # will build database for you with schema
 ```
 
 ### Mnemonic
-Given: _______ (some data/objects)
-When: _______ (I visit this link/click this/fill this in)
-Then: _______ (I expect some behavior to occur)
+Given: _______ (some data/objects)  
+When: _______ (I visit this link/click this/fill this in)  
+Then: _______ (I expect some behavior to occur)  
 
 
 ### Breaking Problem Down In English:
