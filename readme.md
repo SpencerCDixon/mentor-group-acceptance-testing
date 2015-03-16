@@ -77,6 +77,13 @@ def user
 end
 ```
 
+*  User `before :each` blocks for things like signing in or data that needs to
+    be created for each scenario.  
+*  Create helper methods inside your actual test files in order to keep tests
+    dry and make the meaning more clear. [Here is a good example of me doing
+    that at the bottom of the
+    page](https://github.com/SpencerCDixon/tdd-black-jack/blob/master/spec/hand_spec.rb)  
+
 ### Refactoring:
 Once you have your tests and they're passing you can then refactor your code.
 One step most people forget is that your tests are code too and they should be
