@@ -1,4 +1,12 @@
-## Mnemonic
+### Setup
+
+To get this repo set up properly you can run:
+```ruby
+bundle 
+rake reset # will build database for you with schema
+```
+
+### Mnemonic
 Given: _______ (some data/objects)
 When: _______ (I visit this link/click this/fill this in)
 Then: _______ (I expect some behavior to occur)
@@ -17,8 +25,6 @@ the different components you will need?
 *  What buttons need to be clicked on and tested on the page?  
 *  What information should be created when the button/form is clicked?  
 *  How do you know if the test passes?  
-
-
 
 ### Examples:
 
