@@ -95,7 +95,7 @@ scenario "it creates post" do
 end
 ```
 
-This is a more insulated from surface changes.  
+This is more insulated from surface changes of text.  
 
 Sometimes it can be hard to predict what the feature/view will look like before
 its implemented.  This is why it's important to go through this refactoring
